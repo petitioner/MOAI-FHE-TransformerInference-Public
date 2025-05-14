@@ -1,4 +1,6 @@
 .DS_Store
+**/.DS_Store
+.DS_Store?
 thirdparty/SEAL-4.1-bs/build/
 # Prerequisites
 *.d
