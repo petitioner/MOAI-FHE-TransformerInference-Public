@@ -1,7 +1,12 @@
 # MOAI
 
-# 1. Install
-Install the third party globally.
+# 1. Install on Ubuntu/Debian
+## Install dependent libraries
+```
+sudo apt update
+sudo apt install cmake g++ git libntl-dev libssl-dev libgmp-dev pkg-config
+```
+## Install the third party SEAL globally
 ```
 cd thirdparty/SEAL-4.1-bs
 // if build exist, run
@@ -19,7 +24,7 @@ make
 ```
 
 ---
-# uninstall thirdparty
+## uninstall thirdparty
 ```
 cd thirdparty/SEAL-4.1-bs/build
 sudo checkinstall
