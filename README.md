@@ -6,6 +6,7 @@
 sudo apt update
 sudo apt install cmake g++ git libntl-dev libssl-dev libgmp-dev pkg-config
 ```
+
 ## Install the third party SEAL globally
 ```
 cd thirdparty/SEAL-4.1-bs
@@ -14,14 +15,6 @@ cd thirdparty/SEAL-4.1-bs
 cmake -S . -B build
 cmake --build build
 sudo cmake --install build
-```
-
----
-## uninstall thirdparty
-```
-cd thirdparty/SEAL-4.1-bs/build
-sudo checkinstall
-dpkg -r build
 ```
 
 # 2. Go to main folder and Run
