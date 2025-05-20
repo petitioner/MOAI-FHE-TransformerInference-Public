@@ -34,7 +34,7 @@ thirdparty/SEAL-4.1-bs/build/
 *.exe
 *.out
 *.app
-test
+
 
 # CmakeFiles
 CMakeFiles/
