@@ -15,13 +15,6 @@ cmake -S . -B build
 cmake --build build
 sudo cmake --install build
 ```
-# 2. Go to main folder and Run
-```
-cmake -S . -B build
-cd build
-make
-./test
-```
 
 ---
 ## uninstall thirdparty
@@ -30,3 +23,16 @@ cd thirdparty/SEAL-4.1-bs/build
 sudo checkinstall
 dpkg -r build
 ```
+
+# 2. Go to main folder and Run
+```
+cmake -S . -B build
+cd build
+make
+./test
+```
+
+# 3. Test result
+```
+All time cost results outputted is the total time of 256 inputs (each input has up to 128 tokens).
+Please divide by 256 to get the amortized time. 
